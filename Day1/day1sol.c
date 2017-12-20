@@ -32,6 +32,7 @@ int main(int argc, char *argv[]){
         data = readFromFile(argv[1]);
     }else{
         printf("To read from file: \n    %s filename\n", argv[0]);
+        return 0;
     }
 
     int sum = 0;
